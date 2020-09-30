@@ -1,4 +1,4 @@
-## simple js function:
+### simple js function:
 
 # #1 returnSumMultyplyTimes;
 ```
