@@ -1,14 +1,9 @@
-# simple js function:
+# JS function:
 
-## 1) calc-sum-of-input-X;
+## 1) calc sum of input X;
+
 ```
-const calcEachX = (x) => {
-    let calc = Array.from(String(x), Number).reduce((final, item) => {
-        return item + final;
-    },0)
-    return calc.toString().length >= 2 ? calcEachX(calc) : calc;
-}
-```
-```
-console.log(calcEachX(1117199912));
+calcEachX(99)); // expect input: 9 (9 + 9 = 18, 1 + 8 = 9);
+calcEachX(9911)); // expect input: 2 (9 + 9 + 1 + 1 = 20, 2 + 0 = 2)
+
 ```
