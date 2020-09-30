@@ -8,7 +8,7 @@ calcEachX(12345)); /// expect input: 15
 calcEachX(123456789)); /// expect input: 58
 
 ```
-Full source code <a href="#">here</a>
+Full source code <a href="https://github.com/gurelbs/FUNCTIONS/blob/master/returnSumXValue/index.js">here</a>
 
 ## 2) calc sum of input X again and again;
 
@@ -22,4 +22,4 @@ calcEachX(1)); /// expect input: 3
 calcEachX(123456789)); /// expect input: 4
 
 ```
-Full source code <a href="#">here</a>
+Full source code <a href="https://github.com/gurelbs/FUNCTIONS/blob/master/calc-sum-of-input-X-again/index.js">here</a>
