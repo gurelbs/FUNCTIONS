@@ -1,6 +1,6 @@
-## simple js function:
+# simple js function:
 
-# #1 calc-sum-of-input-X;
+## 1) calc-sum-of-input-X;
 ```
 const calcEachX = (x) => {
     let calc = Array.from(String(x), Number).reduce((final, item) => {
