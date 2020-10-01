@@ -25,6 +25,7 @@ calcEachX(123456789)); /// expect input: 4
 Full source code <a href="https://github.com/gurelbs/FUNCTIONS/blob/master/calc-sum-of-input-X-again/index.js">here</a>
 
 ## 3) create 100 numbers
+    // randomRange() pick random number from 1 to 100, calcRandom() create paragraph and send it to the DOM -- 100 times --
 ```
     let randomRange = (myMin, myMax) => {
         return Math.floor(Math.random() * (myMax - myMin + 1) + myMin);
@@ -36,6 +37,5 @@ Full source code <a href="https://github.com/gurelbs/FUNCTIONS/blob/master/calc-
             document.body.appendChild(p);
         }
     }
-    // randomRange() pick random number from 1 to 100, calcRandom() create paragraph and send it to the DOM -- 100 times --
 ```
 link <a href="https://gurelbs.github.io/FUNCTIONS/">here</a>
